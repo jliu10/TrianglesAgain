@@ -33,11 +33,24 @@ public class Triangle{
     a=Math.sqrt(a);
     return a;
   }
-/*
+
   public String classify(){
-
+    double s1,s2,s3;
+    s1=v1.distanceTo(v2);
+    s2=v2.distanceTo(v3);
+    s3=v3.distanceTo(v1);
+    s1=Math.round(s1*10000)/10000;
+    s2=Math.round(s2*10000)/10000;
+    s3=Math.round(s3*10000)/10000;
+    if(s1==s2&&s2==s3){
+      return "equilateral";
+    }
+    if(s1==s2||s2==s3||s3==s1){
+      return "isosceles";
+    }
+    return "scalene";
   }
-
+/*
   public String toString(){
 
   }*/
