@@ -14,4 +14,24 @@ public class Triangle{
     v2=new Point(x2,y2);
     v3=new Point(x3,y3);
   }
+
+  public double getPerimeter(){
+    double s1,s2,s3;
+    s1=v1.distanceTo(v2);
+    s2=v2.distanceTo(v3);
+    s3=v3.distanceTo(v1);
+    return s1+s2+s3;
+  }
+/*
+  public double getArea(){
+
+  }
+
+  public String classify(){
+
+  }
+
+  public String toString(){
+
+  }*/
 }
