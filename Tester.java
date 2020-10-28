@@ -19,5 +19,8 @@ public class Tester{
     System.out.println(isos.classify());
     System.out.println(bob);
     System.out.println(bob.toString());
+    System.out.println(isos);
+    isos.setVertex(0,a);
+    System.out.println(isos);
   }
 }
