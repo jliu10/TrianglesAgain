@@ -31,4 +31,12 @@ public class Point{
     dist = Math.sqrt(dist);
     return dist;
   }
+
+  public boolean equals(Point other){
+    if(x==other.getX()){
+      return y==other.getY();
+    }
+    return false;
+  }
+
 }
