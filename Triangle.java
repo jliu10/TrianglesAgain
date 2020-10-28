@@ -50,8 +50,17 @@ public class Triangle{
     }
     return "scalene";
   }
-/*
-  public String toString(){
 
-  }*/
+  public String toString(){
+    String result="v1(";
+    result+=v1.getX()+", "+v1.getY()+") v2(";
+    result+=v2.getX()+", "+v2.getY()+") v3(";
+    result+=v3.getX()+", "+v3.getY()+")";
+    return result;
+  }
+/*
+  public void setVertex(int index, Point newP){
+
+  }
+  */
 }
