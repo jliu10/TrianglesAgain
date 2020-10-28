@@ -4,5 +4,7 @@ public class Tester{
     Point a=new Point(1,2);
     System.out.println(a.getX());
     System.out.println(a.getY());
+    System.out.println(a.distanceTo(z));
+    System.out.println(a.distanceTo(a));
   }
 }
