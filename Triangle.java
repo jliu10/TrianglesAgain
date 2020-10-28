@@ -22,11 +22,18 @@ public class Triangle{
     s3=v3.distanceTo(v1);
     return s1+s2+s3;
   }
-/*
+
   public double getArea(){
-
+    double s1,s2,s3,s,a;
+    s1=v1.distanceTo(v2);
+    s2=v2.distanceTo(v3);
+    s3=v3.distanceTo(v1);
+    s=getPerimeter()/2;
+    a=s*(s-s1)*(s-s2)*(s-s3);
+    a=Math.sqrt(a);
+    return a;
   }
-
+/*
   public String classify(){
 
   }
