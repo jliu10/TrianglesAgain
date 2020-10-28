@@ -20,4 +20,15 @@ public class Point{
   public double getY(){
     return y;
   }
+
+  public double distanceTo(Point other){
+    double x1=x;
+    double y1=y;
+    double x2=other.getX();
+    double y2=other.getY();
+    double dist=0;
+    dist = (Math.pow(x2 - x1,2) + Math.pow(y2 - y1,2));
+    dist = Math.sqrt(dist);
+    return dist;
+  }
 }
