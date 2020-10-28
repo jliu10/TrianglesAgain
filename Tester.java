@@ -17,5 +17,7 @@ public class Tester{
     System.out.println(bob.getArea());
     System.out.println(bob.classify());
     System.out.println(isos.classify());
+    System.out.println(bob);
+    System.out.println(bob.toString());
   }
 }
