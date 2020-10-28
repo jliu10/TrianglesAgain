@@ -58,9 +58,10 @@ public class Triangle{
     result+=v3.getX()+", "+v3.getY()+")";
     return result;
   }
-/*
-  public void setVertex(int index, Point newP){
 
+  public void setVertex(int index, Point newP){
+    if(index==0) v1=new Point(newP);
+    if(index==1) v2=new Point(newP);
+    if(index==2) v3=new Point(newP);
   }
-  */
 }
