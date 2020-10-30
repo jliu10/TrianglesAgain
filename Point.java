@@ -33,10 +33,6 @@ public class Point{
   }
 
   public boolean equals(Point other){
-    if(x==other.getX()){
-      return y==other.getY();
-    }
-    return false;
+    return other != null && x==other.x && y==other.y;
   }
-
 }
